@@ -1,0 +1,45 @@
+.portfolio_section__mobile_view
+    padding-top: 6rem
+    background: $light-grey
+    
+    .portfolio_section__mobile_view_wrap
+        display: flex
+        flex-direction: column
+        width: 95%
+        margin: 0 auto
+        justify-content: space-around
+        @media screen and (min-width:375px)
+            width: 90%
+        @media screen and (min-width:425px)
+            width: 70%
+        @media screen and (min-width:768px)
+            width: 40%
+        @media screen and (min-width:1024px)
+            flex-direction: row
+            margin-top: 2rem
+        
+        img
+            height: 500px
+            @media screen and (min-width:425px)
+                height: 400px
+            @media screen and (min-width:768px)
+                height: 450px
+            @media screen and (min-width:1024px)
+                width: 70%
+                height: 650px
+    
+    
+.portfolio_section__mobile_view.whats-app
+    background: #333333
+    
+    
+    
+.portfolio_section__mobile_view_wrap.spotland_mobile
+    padding-top: 3rem
+    padding-bottom: 3rem
+    
+    img
+        padding-top: 1rem
+        padding-bottom: 1rem
+        @media screen and (min-width:1024px)
+            height: 800px

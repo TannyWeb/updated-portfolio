@@ -1,0 +1,66 @@
+.form_section
+    padding-bottom: 5rem
+    
+    .section_title.section_title__dark
+        color: $dark-grey
+    
+form
+    max-width: 450px
+    margin: 0 auto 50px
+    width: 80%
+    
+form input, textarea
+    border: 3px solid $red
+    width: 100%
+    box-sizing: border-box
+    padding: 10px
+    
+textarea
+    height: 10rem
+    
+[type="submit"]
+    background-color: $red
+    color: $white
+    font-size: 1.8rem
+    text-transform: uppercase
+        
+label
+    display: block
+    margin-bottom: 20px
+    
+    span
+        display: block
+        font-family: $poppins
+        padding-bottom: 2px
+        color: rgba(0,0,0,0.5)
+        font-size: 2rem
+.contact-info label
+    width: 100%
+    float: left
+    box-sizing: border-box
+    
+    
+        
+        
+    
+.contact-info
+    display: flex
+    flex-direction: column
+    padding-top: 1.5rem
+    align-items: center
+    justify-content: center
+    
+    @media screen and (min-width: 425px)
+        flex-direction: row
+        
+        
+        
+@media screen and (min-width: 425px)
+        .contact-info label:nth-child(1)
+            padding-right: 5px
+            
+        .contact-info label:nth-child(2)
+            padding-left: 5px        
+        
+    
+    

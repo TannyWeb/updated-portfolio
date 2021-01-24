@@ -1,0 +1,131 @@
+.about_section
+    background-color: $white
+    
+        
+        
+.face-lockup-main
+    display: flex
+    max-width: 780px
+    margin: 0 auto
+    align-items: center
+    justify-content: space-around
+    padding-top: 30px
+    
+    @media screen and (max-width:650px)
+        display: block
+        text-align: center
+    
+    
+    
+    .face-img
+        order: 3
+        @media screen and (max-width:650px)
+            display: block
+            margin-bottom: 30px
+        img
+            height: 200px
+            width: 200px
+            border-radius: 50%
+            
+    .icon-pencil
+        width: 100px
+        height: 100px
+        background-color: $light-grey
+        border-radius: 50%
+        order: 1
+        @media screen and (max-width:650px)
+            margin: 10px
+            display: inline-block
+        
+    .icon-pencil:before
+        line-height: 100px
+        text-decoration: none
+        display: block
+        color: $red
+        font-size: 3rem
+        text-align: center
+        
+    .icon-code
+        width: 100px
+        height: 100px
+        background-color: $light-grey
+        border-radius: 50%
+        order: 2
+        @media screen and (max-width:650px)
+            margin: 10px
+            display: inline-block
+        
+    .icon-code:before
+        line-height: 100px
+        text-decoration: none
+        display: block
+        color: $red
+        font-size: 3rem
+        text-align: center
+        
+    .icon-mouse
+        width: 100px
+        height: 100px
+        background-color: $light-grey
+        border-radius: 50%
+        order: 4
+        @media screen and (max-width:650px)
+            margin: 10px
+            display: inline-block
+        
+    .icon-mouse:before
+        line-height: 100px
+        text-decoration: none
+        display: block
+        color: $red
+        font-size: 3rem
+        text-align: center
+        
+    .icon-mobile
+        width: 100px
+        height: 100px
+        background-color: $light-grey
+        border-radius: 50%
+        order: 5
+        @media screen and (max-width:650px)
+            margin: 10px
+            display: inline-block
+    .icon-mobile:before
+        line-height: 100px
+        text-decoration: none
+        display: block
+        color: $red
+        font-size: 3rem
+        text-align: center
+        
+        
+.about_section__blurb
+    max-width: 800px
+    padding: 0 15px 10px 15px
+    margin: 50px auto 20px auto
+    @media screen and (min-width: 375px)
+        width: 85%
+        
+    @media screen and (min-width: 768px)
+        margin: 50px auto 40px auto
+    @media screen and (min-width: 1024px)
+        width: 65%
+        
+        
+    p
+        font:
+            size: 1.8rem
+            family: $text
+            weight: 400
+        color: $dark-grey
+        line-height: 1.9
+        word-spacing: 1px
+        
+        @media screen and (min-width: 768px)
+            width: 75%
+            margin: 0 auto 50px auto
+        
+        @media screen and (min-width: 1024px)
+            width: 70%
+            margin: 0 auto
+        

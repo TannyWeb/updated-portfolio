@@ -1,0 +1,71 @@
+.portfolio_section__base_wrap
+        width: 85%
+        margin: 0 auto
+        @media screen and (min-width:768px)
+            width: 75%
+        @media screen and (min-width:1024px)
+            display: flex
+            justify-content: space-around
+            width: 80%
+
+
+
+        .portfolio_section__base_wrap_flex
+            .portfolio_section__small_title
+                text:
+                    transform: uppercase
+                font:
+                    family: $poppins
+                    size: 2.5rem
+                color: $dark-grey
+                @media screen and (min-width:1024px)
+                    font:
+                        size: 3.5rem
+
+            .portfolio_section__hr
+                margin-bottom: 3rem
+                margin-top: 1rem
+                margin-left: 0
+                margin-right: 0
+                @media screen and (min-width:768px)
+                    width: 8%
+                @media screen and (min-width:1024px)
+                    width: 35%
+            .portfolio_section__hr.mmu-red
+                border: 2px solid $mmu-red
+                width: 15%
+
+
+            .portfolio_section__hr_center
+                margin: 1rem auto 1.5rem auto
+
+
+        .portfolio_section__main_text
+            font:
+                family: $text
+                size: 1.8rem
+            line-height: 35px
+            @media screen and (min-width:1024px)
+                width: 60%
+                font:
+                    size: 2.2rem
+
+.portfolio_section__small_title.portfolio_section__small_title_center
+    text-align: center
+
+
+
+.portfolio_section__base_wrap.flex_center
+    flex-direction: column
+
+
+.portfolio_section__flex_wrap_img_wrap
+    display: flex
+    flex-direction: column
+
+.portfolio_section__main_text.whats-app
+    margin: 2rem auto 0 auto
+
+
+.portfolio_section__small_title.portfolio_section__small_title_center.whats-app
+    color: $white

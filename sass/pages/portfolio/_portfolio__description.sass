@@ -1,0 +1,162 @@
+.portfolio_section__description
+    padding-top: 7rem
+
+
+
+
+.portfolio_section__link_box
+    display: flex
+    flex-direction: column
+    width: 100%
+    padding-top: 5rem
+    @media screen and (min-width:1024px)
+        flex-direction: row
+    .portfolio_section__link_box_image
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #713B85
+
+        @media screen and (min-width:1024px)
+            width: 50%
+
+
+        img
+            height: auto
+            margin: 20px auto 0 auto
+            @media screen and (min-width:425px)
+                margin: 40px auto 0 auto
+        .portfolio_section__link_box_image__mmu
+            height: 250px
+            margin: 25px auto 25px
+        .link_box_spotland_image
+            margin: 30px auto 30px auto
+            width: 80%
+
+
+    .portfolio_section__link_box_link
+        height: 250px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        background: #BD4856
+        width: 100%
+        @media screen and (min-width:1024px)
+            width: 50%
+            height: auto
+
+
+        h3
+            text:
+                transform: uppercase
+                align: center
+            padding-top: 1rem
+            color: $white
+            font:
+                family: $poppins
+                weight: 700
+                size: 3rem
+            letter-spacing: -1px
+            @media screen and (min-width:1024px)
+                font:
+                    size: 5rem
+
+        a
+            text:
+                align: center
+            font:
+                family: $text
+                size: 1.8rem
+            border: 2px solid #fff
+            letter-spacing: 3px
+            padding: 20px 5px
+            margin: 4rem auto 0 auto
+            text-decoration: none
+            color: $white
+            width: 70%
+            cursor: pointer
+            @media screen and (min-width:1024px)
+                width: 50%
+            &:hover
+                color: $paris-pink
+
+
+        a.hvr-shutter-out-horizontal:before
+            background: $white
+
+
+
+.portfolio_section__link_box_image.link_box__mmu
+    background: #90afde
+
+.portfolio_section__link_box_link.portfolio_section__link_box_link__mmu
+    background: $mmu-red
+    h3
+        font:
+            size: 3rem
+
+.portfolio_section__link_box_image.link_box__spotland
+    background: #0B6B73
+
+.portfolio_section__link_box_link.portfolio_section__link_box_link.link_box__spotland
+    background: $spotland-green
+
+.portfolio_section__link_box_image.link_box__excel
+    background: #996515
+
+.portfolio_section__link_box_link.portfolio_section__link_box_link.link_box__excel
+    background: $excel-gold
+
+
+.portfolio_section__link_box_image img.whats-image
+    margin: 0 auto
+
+
+.portfolio_section__link_box_link.whats-app
+    height: auto
+
+.portfolio_section_link_site
+    background: $car-blue
+    height: 12rem
+    margin-top: 5rem
+    margin-bottom: -5rem
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+.portfolio_section__link_a_box
+    text:
+        align: center
+    font:
+        family: $text
+        size: 1.8rem
+    border: 2px solid #fff
+    letter-spacing: 3px
+    padding: 20px 5px
+    margin: 2rem auto 2rem auto
+    text-decoration: none
+    color: $white
+    width: 50%
+    cursor: pointer
+    @media screen and (min-width:1024px)
+        width: 30%
+    &:hover
+        color: $white
+
+
+.portfolio_section_link_site.excelgo
+    background: $excel-gold
+
+
+.portfolio_section__main_text_a_link_whats
+    font:
+        family: $text
+        size: 2rem
+        weight: bold
+
+    letter-spacing: 3px
+
+    color: $whats-orange
+    cursor: pointer
